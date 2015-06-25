@@ -12,6 +12,7 @@
 		341E905D1B3A8AA100D58EE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341E905C1B3A8AA100D58EE8 /* Images.xcassets */; };
 		341E90601B3A8AA100D58EE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341E905E1B3A8AA100D58EE8 /* LaunchScreen.xib */; };
 		341E906C1B3A8AA100D58EE8 /* DuangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341E906B1B3A8AA100D58EE8 /* DuangTests.m */; };
+		343A45321B3B9BA3005DF14F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343A45311B3B9BA3005DF14F /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		341E90651B3A8AA100D58EE8 /* DuangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		341E906A1B3A8AA100D58EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		341E906B1B3A8AA100D58EE8 /* DuangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuangTests.m; sourceTree = "<group>"; };
+		343A45301B3B9BA3005DF14F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		343A45311B3B9BA3005DF14F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +79,15 @@
 		341E90541B3A8AA000D58EE8 /* Duang */ = {
 			isa = PBXGroup;
 			children = (
-				341E90591B3A8AA100D58EE8 /* AppDelegate.h */,
-				341E905A1B3A8AA100D58EE8 /* AppDelegate.m */,
+				341E907F1B3A8BA500D58EE8 /* General */,
+				341E907E1B3A8B4A00D58EE8 /* Vendors */,
+				341E907C1B3A8B2100D58EE8 /* Userinterface */,
+				341E907B1B3A8B1400D58EE8 /* Sections */,
+				341E907A1B3A8B0000D58EE8 /* Resources */,
+				341E90791B3A8AF700D58EE8 /* Models */,
+				341E90781B3A8AEB00D58EE8 /* Macro */,
+				341E90771B3A8ADD00D58EE8 /* Helpers */,
+				341E90751B3A8AA700D58EE8 /* AppDelegate */,
 				341E905C1B3A8AA100D58EE8 /* Images.xcassets */,
 				341E905E1B3A8AA100D58EE8 /* LaunchScreen.xib */,
 				341E90551B3A8AA000D58EE8 /* Supporting Files */,
@@ -109,6 +119,73 @@
 				341E906A1B3A8AA100D58EE8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		341E90751B3A8AA700D58EE8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				341E90591B3A8AA100D58EE8 /* AppDelegate.h */,
+				341E905A1B3A8AA100D58EE8 /* AppDelegate.m */,
+				343A45301B3B9BA3005DF14F /* TableViewController.h */,
+				343A45311B3B9BA3005DF14F /* TableViewController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		341E90771B3A8ADD00D58EE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		341E90781B3A8AEB00D58EE8 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		341E90791B3A8AF700D58EE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		341E907A1B3A8B0000D58EE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		341E907B1B3A8B1400D58EE8 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		341E907C1B3A8B2100D58EE8 /* Userinterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Userinterface;
+			sourceTree = "<group>";
+		};
+		341E907E1B3A8B4A00D58EE8 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		341E907F1B3A8BA500D58EE8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				341E905B1B3A8AA100D58EE8 /* AppDelegate.m in Sources */,
+				343A45321B3B9BA3005DF14F /* TableViewController.m in Sources */,
 				341E90581B3A8AA100D58EE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +472,7 @@
 				341E90711B3A8AA100D58EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		341E90721B3A8AA100D58EE8 /* Build configuration list for PBXNativeTarget "DuangTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +481,7 @@
 				341E90741B3A8AA100D58EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
